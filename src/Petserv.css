@@ -1,0 +1,126 @@
+.service{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: url("./Hero/Images/background.png");
+    gap: 50px;
+    margin-bottom: 50px;
+    
+
+}
+.service-title{
+    font-size: 4rem;
+    font-weight: 600;
+    background-color: transparent;
+
+}
+.service-desc{
+    font-size: 1.5rem;
+    text-align: center;
+  
+    background-color: transparent;
+}
+.service-btn{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: orange;
+    border: transparent;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+.service-btns{
+    border: 1px solid orange;
+    border-radius: 30px;
+    position: relative;
+    justify-content: flex-end;
+    width: 200px;
+    margin-left: 40%;
+
+   
+    
+}
+.service-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    background-color: transparent;
+
+}
+.service-card{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 250px;
+   height: 250px;
+   gap: 20px;
+   border-radius: 20px;
+
+}
+.card-title{
+    font-size: 1.5rem;
+    font-weight: 500;
+    background-color: transparent;
+
+}
+.card-desc{
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: transparent;
+}
+
+.service-cards img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    position: relative;
+   
+
+}
+.carddiv-img1{
+    box-shadow: 0 0 5px skyblue;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-left: 35%;
+    background-color: transparent;
+    
+}
+.carddiv-img2{
+    box-shadow: 0 0 10px red;
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    margin-left: 35%;
+}
+.carddiv-img3{
+    box-shadow: 0 0 10px white;
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    margin-left: 35%;
+}
+.carddiv-img4{
+    box-shadow: 0 0 10px blue;
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    margin-left: 35%;
+}
+.service-card:hover{
+    background-color: orange;
+}
+
+.down-arrow img{
+    width: 500px;
+    height: 150px;
+    margin-right: 100px;
+}
+.down-arrow{
+    background-color: transparent;
+}

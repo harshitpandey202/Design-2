@@ -1,0 +1,115 @@
+.Food{
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+background-color: #fdfaf3;
+gap: 30px;
+margin-bottom: 30px;
+background-color: #fdfaf3;
+}
+.food-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.food-subtitle{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.food-btns1{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+}
+.food-btn1{
+ width: 150px;
+ height: 40px;
+ font-size: 18px;
+ border-radius: 30px;
+ color: grey;
+ border: 1px solid grey;
+ padding: 2px;
+ transition: 0.3s;
+ cursor: pointer;
+}
+
+.food-btn1:hover{
+    color: orange;
+    background-color: rgb(211, 196, 167);
+    border: transparent;
+    cursor: pointer;
+}
+
+.food-button{
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: transparent;
+    background-color: orange;
+    color: white;
+   margin-top: -10px;
+   margin-left: -30px;
+    z-index: 1;
+    
+
+}
+.food-btn2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 250px;height: 50px;
+    
+    border: 1px solid orange;
+    border-radius: 50px;
+    margin-left: 40%;
+    margin-top: 20px;
+    
+}
+.food-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    gap: 30px;
+    margin-left: 150px;
+}
+.food-item{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    justify-content: left;
+    background-color: white;
+    
+
+
+}
+.item-upperimg{
+    width: 100px;
+    height: 200px;
+}
+.item-down{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+.item-downleft{
+    text-align: left;
+}
+.item-downright{
+ display: flex;
+ flex-direction: row;
+ justify-content: end;
+}
+
+.item-downrightimg{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+    
